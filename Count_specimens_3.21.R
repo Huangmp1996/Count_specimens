@@ -1,4 +1,4 @@
-setwd("D:\\R_project\\Count_mammal_specimens") #设置工作目录
+setwd("D:\\R_project\\Count_mammal_specimens") # 设置工作目录
 mam_list <- read.csv("mam_list.csv",stringsAsFactors = F)
 mammal <- read.csv("mammal.csv",fileEncoding = "utf-8",stringsAsFactors = F)
 
